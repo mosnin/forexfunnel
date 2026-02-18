@@ -9,7 +9,7 @@ const testimonials = [
     role: "Former Financial Analyst",
     quote:
       "I spent $8k on three other programs before Urban Trading. This is on a completely different level. The live trading room showed me in 2 weeks what I couldn't figure out in 2 years. Month 3: $41k profit.",
-    avatar: "https://PLACEHOLDER_TESTIMONIAL_1.jpg",
+    avatar: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Lueg_im_SWR1_Studio.jpg",
     result: "+$41,280 Month 3",
   },
   {
@@ -18,7 +18,7 @@ const testimonials = [
     role: "Entrepreneur",
     quote:
       "As a woman in a male-dominated industry, I was skeptical of every trading 'guru'. Urban Trading is different. The community is elite, the education is world-class, and the results speak. $68k in 5 months.",
-    avatar: "https://PLACEHOLDER_TESTIMONIAL_2.jpg",
+    avatar: "https://people.com/thmb/vkT64nOEKQ4vNrD4kUERJz7m2ew=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/naomie-pilula-1-082825-0e7952147277416c8797bbc55143a660.jpg",
     result: "$68k in 5 months",
   },
   {
@@ -27,7 +27,7 @@ const testimonials = [
     role: "Construction Worker → Full-Time Trader",
     quote:
       "I was working 60-hour weeks on sites and falling asleep in front of trading charts. The Urban system was so clear that I could apply it in an hour a day. Q1 this year: $83,000. My crew can't believe it.",
-    avatar: "https://PLACEHOLDER_TESTIMONIAL_3.jpg",
+    avatar: "https://preview.redd.it/my-first-selfie-as-a-29-year-old-v0-6u80g47pqq6b1.jpg?width=1080&crop=smart&auto=webp&s=2a9c4bc3ad7c9e0909e4b87acb617cadb38de55f",
     result: "$83,000 Q1 2024",
   },
   {
@@ -36,7 +36,7 @@ const testimonials = [
     role: "Nurse → Full-Time Trader",
     quote:
       "Healthcare burned me out. I needed an exit. Urban Trading gave me the exact blueprint. The 1-on-1 call with their head mentor changed everything. Year one: $112k. Year two: already projected double that.",
-    avatar: "https://PLACEHOLDER_TESTIMONIAL_4.jpg",
+    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvQad5ANxW0IYJDhdyePHagFtr5XrAGVBHLw&s",
     result: "$112k Year 1",
   },
 ];

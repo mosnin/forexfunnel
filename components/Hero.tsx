@@ -38,6 +38,14 @@ export default function Hero() {
           visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
       >
+        {/* Logo */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5uqGbeCAJQVBFxFxjGj-DqNODkBf6s6sPhlT45PKy8KlyqB1Rq46_3mR4FLEgTkB2rcZMEf_uvDQbkqRDKoMi1_DprP-oQbj98Je3Hpk47Plf5oE6SCvwdifNwgyDF9EP3O0l7fGaJTi8m79sKONwAKY5WT6UFpXI6FQoP_c3FsvGYZnkOVN_MYA9a0B4/s320/UC.png"
+          alt="Urban Trading"
+          className="h-16 mx-auto mb-6"
+        />
+
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#39ff14]/30 bg-[#39ff14]/5 text-[#39ff14] text-sm font-semibold mb-6 uppercase tracking-widest">
           <Zap className="w-4 h-4" />
