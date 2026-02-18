@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import CountdownTimer from "@/components/CountdownTimer";
 import SocialProofCounter from "@/components/SocialProofCounter";
+import FallbackImage from "@/components/FallbackImage";
 import {
   CheckCircle2,
   Shield,
@@ -377,24 +378,16 @@ export default function Step2Page() {
               >
                 {/* Photo */}
                 <div className="aspect-video bg-[#111] overflow-hidden">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
+                  <FallbackImage
                     src={h.avatar}
                     alt={h.name}
                     className="w-full h-full object-cover"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = "none";
-                      const parent = target.parentElement;
-                      if (parent) {
-                        parent.innerHTML = `
-                          <div class="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-[#0d1a0d] to-[#111]">
-                            <div class="text-5xl mb-2">${h.avatar.includes("PLACEHOLDER_HOTSEAT") ? "🎯" : "📊"}</div>
-                            <div class="text-[#39ff14] font-black">${h.result}</div>
-                          </div>
-                        `;
-                      }
-                    }}
+                    fallbackContent={
+                      <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-[#0d1a0d] to-[#111]">
+                        <div className="text-5xl mb-2">🎯</div>
+                        <div className="text-[#39ff14] font-black">{h.result}</div>
+                      </div>
+                    }
                   />
                 </div>
 
