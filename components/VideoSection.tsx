@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Play, ExternalLink } from "lucide-react";
 
-const VIDEO_URL = "https://www.youtube.com/embed/VIDEO_ID_HERE";
+const VIDEO_URL = "https://www.youtube.com/embed/X_hr0BNvDwM";
 
 export default function VideoSection() {
   const [clicked, setClicked] = useState(false);
@@ -32,7 +32,7 @@ export default function VideoSection() {
                 className="absolute inset-0 w-full h-full flex flex-col items-center justify-center bg-[#0d1a0d] group"
                 style={{
                   backgroundImage:
-                    "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://img.youtube.com/vi/VIDEO_ID_HERE/maxresdefault.jpg')",
+                    "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://img.youtube.com/vi/X_hr0BNvDwM/maxresdefault.jpg')",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                 }}

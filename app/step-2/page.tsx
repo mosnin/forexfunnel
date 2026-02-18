@@ -98,7 +98,7 @@ const hotseats = [
     quote:
       "I was in debt, working 60-hour weeks, and my wife was about to leave me because of financial stress. Urban Trading literally saved my family. Year one: $82,000. Now I trade from home while my kids sleep.",
     result: "$82k Year 1",
-    avatar: "https://PLACEHOLDER_HOTSEAT_1.jpg",
+    avatar: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Lueg_im_SWR1_Studio.jpg",
   },
   {
     name: "Priya V.",
@@ -107,7 +107,7 @@ const hotseats = [
     quote:
       "Healthcare burned me out completely. I was crying in the break room at 34 years old. This program gave me a way out. $31,500 on a single GBP/JPY trade in month 5. I haven't looked back since.",
     result: "$31.5k Single Trade",
-    avatar: "https://PLACEHOLDER_HOTSEAT_2.jpg",
+    avatar: "https://people.com/thmb/vkT64nOEKQ4vNrD4kUERJz7m2ew=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/naomie-pilula-1-082825-0e7952147277416c8797bbc55143a660.jpg",
   },
   {
     name: "Carlos M.",
@@ -116,7 +116,7 @@ const hotseats = [
     quote:
       "English is my second language and I still understood every word of this program. Month 4: $22,000. My family thought I was making this up until I showed them the bank transfer.",
     result: "$22k Month 4",
-    avatar: "https://PLACEHOLDER_HOTSEAT_3.jpg",
+    avatar: "https://preview.redd.it/my-first-selfie-as-a-29-year-old-v0-6u80g47pqq6b1.jpg?width=1080&crop=smart&auto=webp&s=2a9c4bc3ad7c9e0909e4b87acb617cadb38de55f",
   },
   {
     name: "Liam B.",
@@ -125,7 +125,7 @@ const hotseats = [
     quote:
       "The algo toolkit alerted me to a massive gold setup at 7am. I entered, set my stop, went for a run, came back to $8,900 profit. That moment broke my brain. I'm never going back to hourly billing.",
     result: "$8.9k Single Trade",
-    avatar: "https://PLACEHOLDER_HOTSEAT_4.jpg",
+    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvQad5ANxW0IYJDhdyePHagFtr5XrAGVBHLw&s",
   },
   {
     name: "Rachel N.",
@@ -134,7 +134,7 @@ const hotseats = [
     quote:
       "Teachers are underpaid everywhere. I was making $28k a year educating the next generation. Now I make more than that in a quarter trading currencies. The live room is phenomenal.",
     result: "3x Annual Salary",
-    avatar: "https://PLACEHOLDER_HOTSEAT_5.jpg",
+    avatar: "https://images.squarespace-cdn.com/content/v1/66183943c04d217a7cbf0e9e/1051e8f9-f77c-4218-afc7-4e4c36c5e0d7/IMG_7448+%281%29.jpg",
   },
   {
     name: "Omar F.",
@@ -143,7 +143,7 @@ const hotseats = [
     quote:
       "Real estate commissions are inconsistent. Trading is consistent when you have a real system. $140k last year. The 1-on-1 call in month 2 was the single most valuable hour of my financial life.",
     result: "$140k Year 1",
-    avatar: "https://PLACEHOLDER_HOTSEAT_6.jpg",
+    avatar: "https://i.pinimg.com/736x/12/c6/56/12c656c771479ebbb6239339fd81896c.jpg",
   },
 ];
 
@@ -528,7 +528,8 @@ export default function Step2Page() {
       {/* FOOTER with disclaimer */}
       <footer className="bg-[#060606] border-t border-[#111] py-12 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto text-center space-y-4">
-          <p className="text-[#39ff14] font-black text-xl">Urban Trading</p>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5uqGbeCAJQVBFxFxjGj-DqNODkBf6s6sPhlT45PKy8KlyqB1Rq46_3mR4FLEgTkB2rcZMEf_uvDQbkqRDKoMi1_DprP-oQbj98Je3Hpk47Plf5oE6SCvwdifNwgyDF9EP3O0l7fGaJTi8m79sKONwAKY5WT6UFpXI6FQoP_c3FsvGYZnkOVN_MYA9a0B4/s320/UC.png" alt="Urban Trading" className="h-12 mx-auto" />
 
           <p className="text-gray-500 text-xs leading-relaxed max-w-2xl mx-auto">
             <strong className="text-gray-400">EARNINGS DISCLAIMER:</strong>{" "}

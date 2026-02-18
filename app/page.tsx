@@ -76,7 +76,8 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="bg-[#060606] border-t border-[#111] py-10 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto text-center space-y-4">
-          <p className="text-[#39ff14] font-black text-xl">Urban Trading</p>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5uqGbeCAJQVBFxFxjGj-DqNODkBf6s6sPhlT45PKy8KlyqB1Rq46_3mR4FLEgTkB2rcZMEf_uvDQbkqRDKoMi1_DprP-oQbj98Je3Hpk47Plf5oE6SCvwdifNwgyDF9EP3O0l7fGaJTi8m79sKONwAKY5WT6UFpXI6FQoP_c3FsvGYZnkOVN_MYA9a0B4/s320/UC.png" alt="Urban Trading" className="h-12 mx-auto" />
           <p className="text-gray-500 text-xs leading-relaxed max-w-2xl mx-auto">
             <strong className="text-gray-400">RISK DISCLAIMER:</strong> Trading
             forex and other financial instruments involves substantial risk of

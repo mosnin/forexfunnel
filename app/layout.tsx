@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "The #1 forex trading mastermind for serious traders. 92.4% win rate students. Limited spots.",
     images: [
       {
-        url: "https://PLACEHOLDER_OG_IMAGE.jpg",
+        url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAMvASxu4Hi1MDMLWPHtb6WH96rO93djW9X3VtZN-CCMB4GBsWvF5UhUsxPoiam_9I88h2aFH-JUNXLIJT4GPCLTV2T4sh7xgJ6cK2KgcDSxaAmz1-ETU4Q1ybND8_JB3sQ8G6R_vCcMJXVDmusW-3MXfkrJMhs4EGyH4BE1iiV7nHNF_UJaXWwvdIr46E/s320/Untitled%20design%20(44).png",
         width: 1200,
         height: 630,
         alt: "Urban Trading Mastermind",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: "Urban Trading | Elite Forex Mastermind & Course",
     description:
       "The #1 forex trading mastermind for serious traders. Limited spots available.",
-    images: ["https://PLACEHOLDER_OG_IMAGE.jpg"],
+    images: ["https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAMvASxu4Hi1MDMLWPHtb6WH96rO93djW9X3VtZN-CCMB4GBsWvF5UhUsxPoiam_9I88h2aFH-JUNXLIJT4GPCLTV2T4sh7xgJ6cK2KgcDSxaAmz1-ETU4Q1ybND8_JB3sQ8G6R_vCcMJXVDmusW-3MXfkrJMhs4EGyH4BE1iiV7nHNF_UJaXWwvdIr46E/s320/Untitled%20design%20(44).png"],
   },
   icons: {
     icon: "/favicon.ico",
