@@ -84,6 +84,7 @@ export default function TestimonialCards() {
               {/* Author */}
               <div className="flex items-center gap-3 pt-4 border-t border-[#1a1a1a]">
                 <div className="w-12 h-12 rounded-full overflow-hidden bg-[#1a1a1a] flex-shrink-0 border border-[#39ff14]/20">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={t.avatar}
                     alt={t.name}

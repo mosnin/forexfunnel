@@ -377,6 +377,7 @@ export default function Step2Page() {
               >
                 {/* Photo */}
                 <div className="aspect-video bg-[#111] overflow-hidden">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={h.avatar}
                     alt={h.name}

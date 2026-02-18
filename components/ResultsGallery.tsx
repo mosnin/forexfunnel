@@ -81,6 +81,7 @@ export default function ResultsGallery() {
             >
               {/* Image placeholder */}
               <div className="relative aspect-[4/3] bg-[#111] overflow-hidden">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={r.src}
                   alt={r.caption}

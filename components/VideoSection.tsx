@@ -18,9 +18,9 @@ export default function VideoSection() {
           Free Training — Watch Now
         </p>
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-center text-white mb-8">
-          "How I Built A{" "}
+          &ldquo;How I Built A{" "}
           <span className="text-[#39ff14]">7-Figure Trading Business</span>{" "}
-          Starting From Zero"
+          Starting From Zero&rdquo;
         </h2>
 
         {/* Video wrapper */}
